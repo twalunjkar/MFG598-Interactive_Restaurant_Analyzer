@@ -31,6 +31,8 @@ The Interactive Restaurant Analyzer is a Python-based application designed to pr
 
 The Interactive Restaurant Analyzer provides users with an intuitive interface to explore and analyze restaurant data effectively. Users can visualize restaurant locations, compare details of individual restaurants, explore various cuisines, analyze rating distributions, and filter restaurant options based on reviews. The tool facilitates informed decision-making by presenting comprehensive insights into dining options, thereby enhancing the overall dining experience.
 
+[Restaurant Analyzer Video](Media/Interactive_Restaurant_Analyzer_video.mp4)
+
 ## Installation and Setup
 
 Before running the code, ensure that all necessary libraries are installed and they support the version of the Python platform being used. You can refer to the `requirements.txt` file for a list of required libraries and their versions. You can install the required libraries by running the following command:
