@@ -11,8 +11,8 @@ from tkinter import ttk, messagebox
 from PIL import Image, ImageTk
 
 # Load the data from the Excel and CSV files
-country_codes = pd.read_excel('country-code.xlsx')
-zomato_data = pd.read_csv('zomato.csv', encoding='ISO-8859-1')
+country_codes = pd.read_excel('Dataset/country-code.xlsx')
+zomato_data = pd.read_csv('Dataset/zomato.csv', encoding='ISO-8859-1')
 
 # Create a list of country names sorted alphabetically
 country_names = sorted(country_codes['Country'].tolist())
