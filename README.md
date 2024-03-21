@@ -46,7 +46,7 @@ Also, make sure to place all the input datasets, images, and the Python code fil
 ## Citation
 
 - **All images**: Microsoft 365 Excel, Microsoft Corporation, 2022, Insert Icons > Images
-- **Input datasets**: [Zomato Restaurants Data](https://www.kaggle.com/datasets/shrutimehta/zomato-restaurants-data) from Kaggle
+- **Input datasets**: Zomato Restaurants Data from Kaggle- https://www.kaggle.com/datasets/shrutimehta/zomato-restaurants-data
 ---
 ## Acknowledgment
 I appreciate the support from Professor Binil Starley.
