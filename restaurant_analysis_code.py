@@ -31,7 +31,7 @@ class ZomatoApp:
         master.title("Restaurant Analysis")
         
         # Set up the background image
-        bg_image = Image.open("cityscape.png")
+        bg_image = Image.open("Media/cityscape.png")
         bg_image = bg_image.resize((master.winfo_screenwidth(), master.winfo_screenheight()), Image.ANTIALIAS)
         bg_image = ImageTk.PhotoImage(bg_image)
         bg_label = tk.Label(master, image=bg_image)
@@ -68,27 +68,27 @@ class ZomatoApp:
         self.selected_restaurants = []
         
         # Create a button for the map view
-        self.map_image = tk.PhotoImage(file="mapView.png")
+        self.map_image = tk.PhotoImage(file="Media/mapView.png")
         map_button = ttk.Button(master, image=self.map_image, command=self.show_map)
         map_button.pack(side="left", padx=5.5, pady=10)
         
         # Create a button for the restaurant list view
-        self.restaurant_list_image = tk.PhotoImage(file="compareView.png")
+        self.restaurant_list_image = tk.PhotoImage(file="Media/compareView.png")
         restaurant_list_button = ttk.Button(master, image=self.restaurant_list_image, command=self.update_restaurants)
         restaurant_list_button.pack(side="left", padx=5.5, pady=10)
                         
         # Create a button for the cuisine list view
-        self.cuisine_list_image = tk.PhotoImage(file="listView.png")
+        self.cuisine_list_image = tk.PhotoImage(file="Media/listView.png")
         cuisine_list_button = ttk.Button(master, image=self.cuisine_list_image, command=self.list_cuisines)
         cuisine_list_button.pack(side="left", padx=5.5, pady=10)
                         
         # Create a button to show the pie chart
-        self.pie_chart_image = tk.PhotoImage(file="chartView.png")
+        self.pie_chart_image = tk.PhotoImage(file="Media/chartView.png")
         pie_chart_button = ttk.Button(master, image=self.pie_chart_image, command=self.show_pie_chart)
         pie_chart_button.pack(side="left", padx=5.5, pady=10)
                         
         # Create a button to show the Review view
-        self.review_filter_image = tk.PhotoImage(file="reviewView.png")
+        self.review_filter_image = tk.PhotoImage(file="Media/reviewView.png")
         review_filter_button = ttk.Button(master, image=self.review_filter_image, command=self.review_filter)
         review_filter_button.pack(side="left", padx=5.5, pady=10)
                
@@ -409,10 +409,10 @@ class ZomatoApp:
         
             ax.set(aspect="equal")
             plt.title('Aggregate Rating (inner) vs Rating Color (outer) for ' + city_name)
-            plt.savefig('pieCharts.png')
+            plt.savefig('Media/pieCharts.png')
             plt.show()
             # Open the image file
-            img = Image.open('pieCharts.png')
+            img = Image.open('Media/pieCharts.png')
             # Show the image
             img.show()
 
