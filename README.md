@@ -11,6 +11,10 @@
 
 The Interactive Restaurant Analyzer is a Python-based application designed to provide comprehensive analysis of restaurant data obtained from sources like Zomato. Leveraging various Python libraries, including Tkinter, Pandas, Folium, and Matplotlib, this tool offers an intuitive graphical interface for exploring and analyzing restaurant information. Users can select a country and city to access a range of analytical features such as mapping restaurant locations, comparing restaurant details, listing cuisines, visualizing rating distributions, and filtering restaurants based on reviews.
 
+![homescreen](Media/GUI_homescreen.jpg)
+- **Fig 1:** GUI Homescreen
+---
+
 ## Key Features
 
 - **Map View**: Plot restaurant locations on an interactive map using Folium.
